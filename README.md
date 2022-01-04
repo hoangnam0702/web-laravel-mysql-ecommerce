@@ -13,3 +13,10 @@ php artisan migrate
 php artisan db:seed
 php artisan serve
 ```
+
+## Problem
+
+### Image not show
+
+Run this command to link with storage
+`php artisan storage:link`
