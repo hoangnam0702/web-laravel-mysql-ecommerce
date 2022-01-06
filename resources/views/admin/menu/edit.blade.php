@@ -41,11 +41,11 @@
                 <label for="menu">Ảnh Menu</label>
                 <input type="file" class="form-control" id="upload">
                 <div id="image_show">
-                    <a href="{{ $product->image }}" target="_blank">
-                        <img src="{{ $product->image }}" width="100px">
+                    <a href="{{ $menu->image }}" target="_blank">
+                        <img src="{{ $menu->image }}" width="100px">
                     </a>
                 </div>
-                <input type="hidden" name="image" value="{{ $product->image }}" id="image">
+                <input type="hidden" name="thumb" value="{{ $menu->image }}" id="thumb">
             </div>
 
             <div class="form-group">
