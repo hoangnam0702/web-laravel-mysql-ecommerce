@@ -16,7 +16,8 @@ class HomeController extends Controller
         return response()->json(['cateGoryList' => $cateGoryList, 'hotList' => $hotList]);
     }
 
-    public function show($id) {
+    public function show($id)
+    {
         $product = Product::find($id);
         return response()->json($product);
     }
